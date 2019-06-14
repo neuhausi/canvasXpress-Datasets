@@ -1,6 +1,6 @@
 {
-  "version": 24.3,
-  "renderTo": "htmlwidget-3f73115ec1fa70193e48-cx",
+  "version": 24.4,
+  "renderTo": "violins",
   "data": {
     "y": {
       "vars": [
@@ -203319,6 +203319,11 @@
         "R3": "blue"
       }
     },
+    "violinBorderColor": "white",
+    "violinTransparency": 0.5,
+    "boxplotBorderColor": "white",
+    "boxplotMedianColor": "white",
+    "boxplotMedianWidth": 2,
     "graphOrientation": "vertical",
     "groupingFactors": [
       "FileName"
@@ -203332,9 +203337,16 @@
     "showViolinBoxplot": true,
     "smpTitle": "Samples",
     "smpTitleFontStyle": "italic",
+    "smpLabelScaleFontFactor": 1.5,
+    "smpLabelRotate": 45,
     "xAxis2Show": false,
     "xAxisMinorTicks": false,
     "xAxisTitle": "Log 10 Normalized Counts",
+    "layoutBoxShow": false,
+    "layoutAdjust": true,
+    "fontStyle": "bold",
+    "xAxisTickStyle": "dotted",
+    "xAxisTickColor": "rgb(213,213,213)",
     "skipRender": false
   },
   "events": false,
@@ -203349,7 +203361,7 @@
       ]
     ]
   ],
-  "client": "MTU2MDQ3NjAwMzgxMDo6MTo6MjQuMzo6",
+  "client": "MTU2MDUzNDE4MjgyNzo6MTo6MjQuNDo6",
   "clientIP": {
     "country": "United States",
     "longitude": -74.9535,
