@@ -1,5 +1,9 @@
 [
   [
+	"violins",
+	"https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/violins.json"
+  ],
+  [
 	"clusterVariablesSamples",
 	"https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/clusterVariablesSamples.json"
   ],
