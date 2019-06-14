@@ -1,0 +1,26 @@
+[
+  [
+	"clusterVariablesSamples",
+	"https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/clusterVariablesSamples.json"
+  ],
+  [
+	"colorByScatter3D",
+	"https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/colorByScatter3D.json"
+  ],
+  [
+	"customColors",
+	"https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/customColors.json"
+  ],
+  [
+	"genomeCRISPR",
+	"https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/genomeCRISPR.json"
+  ],
+  [
+	"legendOrder",
+	"https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/legendOrder.json"
+  ],
+  [
+	"updateDataFilter",
+	"https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/updateDataFilter.json"
+  ]
+]
