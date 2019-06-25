@@ -1,5 +1,9 @@
 [
   [
+	"increasedDecreased",
+	"https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/summaryBar.json"
+  ],
+  [
 	"definedDendrogram",
 	"https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/definedDendrogram.json"
   ],
