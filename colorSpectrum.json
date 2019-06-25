@@ -1,0 +1,113 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas",
+  "data": {
+    "y": {
+      "data": [
+        [
+          29.5
+        ],
+        [
+          4.24
+        ],
+        [
+          53.56
+        ],
+        [
+          27.91
+        ],
+        [
+          30.46
+        ],
+        [
+          28.03
+        ],
+        [
+          21.1
+        ],
+        [
+          26.27
+        ],
+        [
+          29.27
+        ],
+        [
+          28.4
+        ],
+        [
+          83.34
+        ]
+      ],
+      "smps": [
+        "ICC4958.Ca_03061"
+      ],
+      "vars": [
+        "GS",
+        "YL",
+        "SAM",
+        "FB1",
+        "FB2",
+        "FB3",
+        "FB4",
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    }
+  },
+  "config": {
+    "graphType": "Heatmap",
+    "colorSpectrum": [
+      "white",
+      "yellow",
+      "orange",
+      "gold",
+      "red"
+    ],
+    "colorSpectrumBreaks": [
+      1,
+      10,
+      100,
+      1000,
+      10000
+    ],
+    "fontName": "Arial",
+    "canvasBox": true,
+    "title": "RNA-seq expression (TPM)",
+    "titleScaleFontFactor": 0.5,
+    "adjustAspectRatio": true,
+    "adjustAspectRatioHeatmapIndicator": false,
+    "heatmapCellBox": true,
+    "heatmapIndicatorPosition": "top",
+    "heatmapIndicatorHistogram": false,
+    "legendScaleFontFactor": 5,
+    "smpLabelFontColor": "black",
+    "smpLabelScaleFontFactor": 4,
+    "varLabelFontColor": "black",
+    "varLabelScaleFontFactor": 1.5
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        800,
+        150,
+        true
+      ]
+    ]
+  ],
+  "client": "MTU2MTQyNDYyNjIyNzo6MTo6MjQuNTo6",
+  "clientIP": {
+    "country": "United States",
+    "longitude": -74.9535,
+    "continentCode": "NA",
+    "postal": "18940",
+    "countryCode": "US",
+    "city": "Newtown",
+    "continent": "North America",
+    "latitude": 40.2647
+  }
+}

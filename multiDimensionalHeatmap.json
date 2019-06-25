@@ -1,0 +1,336 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas",
+  "data": {
+    "y": {
+      "vars": [
+        "Variable1",
+        "Variable2",
+        "Variable3",
+        "Variable4",
+        "Variable5"
+      ],
+      "smps": [
+        "Sample1",
+        "Sample2",
+        "Sample3",
+        "Sample4",
+        "Sample5",
+        "Sample6",
+        "Sample7",
+        "Sample8",
+        "Sample9",
+        "Sample10"
+      ],
+      "data": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        [
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        [
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      ],
+      "data2": [
+        [
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5,
+          5
+        ],
+        [
+          6,
+          6,
+          7,
+          7,
+          8,
+          8,
+          9,
+          9,
+          10,
+          10
+        ],
+        [
+          10,
+          10,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          6,
+          6
+        ],
+        [
+          5,
+          5,
+          4,
+          4,
+          3,
+          3,
+          2,
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          3,
+          4,
+          4,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7
+        ]
+      ],
+      "data3": [
+        [
+          "A",
+          "A",
+          "B",
+          "B",
+          "C",
+          "C",
+          "D",
+          "D",
+          "E",
+          "E"
+        ],
+        [
+          "E",
+          "E",
+          "D",
+          "D",
+          "C",
+          "C",
+          "B",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B",
+          "C",
+          "C",
+          "D",
+          "D",
+          "E",
+          "E"
+        ],
+        [
+          "E",
+          "E",
+          "D",
+          "D",
+          "C",
+          "C",
+          "B",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B",
+          "C",
+          "C",
+          "D",
+          "D",
+          "E",
+          "E"
+        ]
+      ],
+      "data4": [
+        [
+          "A",
+          "A",
+          "B",
+          "B",
+          "A",
+          "A",
+          "B",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "B",
+          "B",
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B",
+          "A",
+          "A",
+          "B",
+          "B",
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B",
+          "A",
+          "A",
+          "B",
+          "B",
+          "A",
+          "A",
+          "B",
+          "B"
+        ],
+        [
+          "A",
+          "A",
+          "B",
+          "B",
+          "A",
+          "A",
+          "B",
+          "B",
+          "A",
+          "A"
+        ]
+      ]
+    },
+    "x": {
+      "Factor": [
+        "Lev:1",
+        "Lev:2",
+        "Lev:1",
+        "Lev:2",
+        "Lev:1",
+        "Lev:2",
+        "Lev:1",
+        "Lev:2",
+        "Lev:1",
+        "Lev:2"
+      ]
+    },
+    "z": {
+      "Annt": [
+        "Desc:1",
+        "Desc:2",
+        "Desc:1",
+        "Desc:2",
+        "Desc:1",
+        "Desc:2",
+        "Desc:1",
+        "Desc:2",
+        "Desc:1",
+        "Desc:2"
+      ]
+    }
+  },
+  "config": {
+    "graphType": "Heatmap",
+    "outlineBy": "Outline",
+    "outlineByData": "data2",
+    "shapeByData": "data3",
+    "shapeBy": "Shape",
+    "sizeByData": "data4",
+    "sizeBy": "Size",
+    "guides": "true"
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        850,
+        850,
+        true
+      ]
+    ]
+  ],
+  "client": "MTU2MTQyNTc2NjQyNjo6MTo6MjQuNTo6",
+  "clientIP": {
+    "country": "United States",
+    "longitude": -74.9535,
+    "continentCode": "NA",
+    "postal": "18940",
+    "countryCode": "US",
+    "city": "Newtown",
+    "continent": "North America",
+    "latitude": 40.2647
+  }
+}

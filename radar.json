@@ -1,0 +1,180 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas",
+  "data": {
+    "z": {
+      "Annt1": [
+        "Desc:1",
+        "Desc:2",
+        "Desc:3",
+        "Desc:4"
+      ],
+      "Annt2": [
+        "Desc:A",
+        "Desc:B",
+        "Desc:A",
+        "Desc:B"
+      ],
+      "Annt3": [
+        "Desc:X",
+        "Desc:X",
+        "Desc:Y",
+        "Desc:Y"
+      ],
+      "Annt4": [
+        5,
+        10,
+        15,
+        20
+      ],
+      "Annt5": [
+        8,
+        16,
+        24,
+        32
+      ],
+      "Annt6": [
+        10,
+        20,
+        30,
+        40
+      ]
+    },
+    "x": {
+      "Factor1": [
+        "Lev:1",
+        "Lev:2",
+        "Lev:3",
+        "Lev:1",
+        "Lev:2",
+        "Lev:3"
+      ],
+      "Factor2": [
+        "Lev:A",
+        "Lev:B",
+        "Lev:A",
+        "Lev:B",
+        "Lev:A",
+        "Lev:B"
+      ],
+      "Factor3": [
+        "Lev:X",
+        "Lev:X",
+        "Lev:Y",
+        "Lev:Y",
+        "Lev:Z",
+        "Lev:Z"
+      ],
+      "Factor4": [
+        5,
+        10,
+        15,
+        20,
+        25,
+        30
+      ],
+      "Factor5": [
+        -8,
+        -16,
+        -24,
+        -32,
+        -40,
+        -48
+      ],
+      "Factor6": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60
+      ]
+    },
+    "y": {
+      "vars": [
+        "Variable1",
+        "Variable2",
+        "Variable3",
+        "Variable4"
+      ],
+      "smps": [
+        "Sample1",
+        "Sample2",
+        "Sample3",
+        "Sample4",
+        "Sample5",
+        "Sample6"
+      ],
+      "data": [
+        [
+          5,
+          10,
+          25,
+          40,
+          45,
+          50
+        ],
+        [
+          95,
+          80,
+          75,
+          70,
+          55,
+          40
+        ],
+        [
+          25,
+          30,
+          45,
+          60,
+          65,
+          70
+        ],
+        [
+          55,
+          40,
+          35,
+          30,
+          15,
+          1
+        ]
+      ]
+    }
+  },
+  "config": {
+    "graphType": "Circular",
+    "colorScheme": "Bootstrap",
+    "circularType": "radar",
+    "ringsType": [
+      "stacked"
+    ],
+    "title": "Radar - Area",
+    "circularArc": 360,
+    "circularRotate": 0,
+    "legendPosition": "top",
+    "showTransition": false
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        850,
+        850,
+        true
+      ]
+    ]
+  ],
+  "client": "MTU2MTQyNTQ2Njc2Njo6MTo6MjQuNTo6",
+  "clientIP": {
+    "country": "United States",
+    "longitude": -74.9535,
+    "continentCode": "NA",
+    "postal": "18940",
+    "countryCode": "US",
+    "city": "Newtown",
+    "continent": "North America",
+    "latitude": 40.2647
+  }
+}

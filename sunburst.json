@@ -1,0 +1,152 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas",
+  "data": {
+    "x": {
+      "Quarter": [
+        "1st",
+        "1st",
+        "1st",
+        "1st",
+        "1st",
+        "1st",
+        "2nd",
+        "2nd",
+        "2nd",
+        "3rd",
+        "3rd",
+        "3rd",
+        "4th",
+        "4th",
+        "4th"
+      ],
+      "Month": [
+        "Jan",
+        "Feb",
+        "Feb",
+        "Feb",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "Week": [
+        null,
+        "Week 1",
+        "Week 2",
+        "Week 3",
+        "Week 4",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Color": [
+        "red",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "blue",
+        "green"
+      ]
+    },
+    "y": {
+      "vars": [
+        "Sales"
+      ],
+      "smps": [
+        "Sales1",
+        "Sales2",
+        "Sales3",
+        "Sales4",
+        "Sales5",
+        "Sales6",
+        "Sales7",
+        "Sales8",
+        "Sales9",
+        "Sales10",
+        "Sales11",
+        "Sales12",
+        "Sales13",
+        "Sales14",
+        "Sales15"
+      ],
+      "data": [
+        [
+          3.5,
+          1.2,
+          0.8,
+          0.6,
+          0.5,
+          1.7,
+          1.1,
+          0.8,
+          0.3,
+          0.7,
+          0.6,
+          0.1,
+          0.5,
+          0.4,
+          0.3
+        ]
+      ]
+    }
+  },
+  "config": {
+    "graphType": "Circular",
+    "circularType": "sunburst",
+    "sunburstHierarchy": [
+      "Quarter",
+      "Month"
+    ],
+    "circularArc": 360,
+    "circularRotate": -90,
+    "colorBy": "Quarter",
+    "showTransition": true
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        850,
+        850,
+        true
+      ]
+    ]
+  ],
+  "client": "MTU2MTQyNTU3NDI0Mjo6MTo6MjQuNTo6",
+  "clientIP": {
+    "country": "United States",
+    "longitude": -74.9535,
+    "continentCode": "NA",
+    "postal": "18940",
+    "countryCode": "US",
+    "city": "Newtown",
+    "continent": "North America",
+    "latitude": 40.2647
+  }
+}

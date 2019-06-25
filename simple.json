@@ -1,0 +1,52 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas",
+  "data": {
+    "y": {
+      "vars": [
+        "Gene1"
+      ],
+      "smps": [
+        "Smp1",
+        "Smp2",
+        "Smp3"
+      ],
+      "data": [
+        [
+          10,
+          35,
+          88
+        ]
+      ]
+    }
+  },
+  "config": {
+    "graphType": "Bar",
+    "width": "540",
+    "height": "540",
+    "graphOrientation": "vertical"
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        540,
+        540,
+        true
+      ]
+    ]
+  ],
+  "client": "MTU2MTQyNjY4NzY3ODo6MTo6MjQuNTo6",
+  "clientIP": {
+    "country": "United States",
+    "longitude": -74.9535,
+    "continentCode": "NA",
+    "postal": "18940",
+    "countryCode": "US",
+    "city": "Newtown",
+    "continent": "North America",
+    "latitude": 40.2647
+  }
+}

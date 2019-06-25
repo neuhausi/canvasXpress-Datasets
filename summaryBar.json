@@ -1,0 +1,76 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas2",
+  "data": {
+    "x": {
+      "Factor1": [
+        "Lev1",
+        "Lev2",
+        "Lev3"
+      ]
+    },
+    "y": {
+      "vars": [
+        "Variable1"
+      ],
+      "smps": [
+        "Group1",
+        "Group2",
+        "Group3"
+      ],
+      "mean": [
+        [
+          50,
+          250,
+          100
+        ]
+      ],
+      "stdev": [
+        [
+          10,
+          20,
+          15
+        ]
+      ]
+    }
+  },
+  "config": {
+    "colorBy": "Factor1",
+    "graphOrientation": "vertical",
+    "graphType": "Bar",
+    "showLegend": false,
+    "subtitle": "Bar Graph",
+    "colors": [
+      "white",
+      "red",
+      "green"
+    ],
+    "foreground": [
+      "blue"
+    ],
+    "title": "Summary Data"
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        500,
+        500,
+        true
+      ]
+    ]
+  ],
+  "client": "MTU2MTQyNjkxMzY4MDo6MTo6MjQuNTo6",
+  "clientIP": {
+    "country": "United States",
+    "longitude": -74.9535,
+    "continentCode": "NA",
+    "postal": "18940",
+    "countryCode": "US",
+    "city": "Newtown",
+    "continent": "North America",
+    "latitude": 40.2647
+  }
+}

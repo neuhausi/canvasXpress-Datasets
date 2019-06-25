@@ -1,0 +1,418 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas",
+  "data": {
+    "z": {
+      "Drug": [
+        "A",
+        "A",
+        "A",
+        "B",
+        "B",
+        "B"
+      ],
+      "Site": [
+        "X",
+        "Y",
+        "Z",
+        "Y",
+        "Z",
+        "W"
+      ],
+      "Desc": [
+        "Good",
+        "So so",
+        "So so",
+        "So so",
+        "Excellent",
+        "Ahh!"
+      ],
+      "Conc": [
+        1,
+        2,
+        3,
+        1,
+        2,
+        3
+      ],
+      "Male": [
+        10,
+        20,
+        30,
+        40,
+        30,
+        20
+      ],
+      "Female": [
+        50,
+        40,
+        30,
+        20,
+        10,
+        20
+      ],
+      "Odd": [
+        5,
+        9,
+        15,
+        21,
+        25,
+        31
+      ],
+      "Even": [
+        20,
+        20,
+        30,
+        40,
+        6,
+        10
+      ],
+      "Nice": [
+        8,
+        16,
+        24,
+        32,
+        40,
+        48
+      ],
+      "Ugly": [
+        10,
+        5,
+        20,
+        10,
+        30,
+        15
+      ],
+      "Cold": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60
+      ],
+      "Hot": [
+        10,
+        20,
+        10,
+        25,
+        10,
+        30
+      ]
+    },
+    "x": {
+      "Binary": [
+        "Yes",
+        "No",
+        "Yes",
+        "No",
+        "Yes",
+        "No"
+      ],
+      "Continuous": [
+        8,
+        16,
+        24,
+        32,
+        40,
+        48
+      ],
+      "Discrete": [
+        "X",
+        "X",
+        "Y",
+        "Y",
+        "Z",
+        "Z"
+      ],
+      "Temp": [
+        5,
+        10,
+        15,
+        20,
+        25,
+        30
+      ],
+      "Early": [
+        8,
+        16,
+        24,
+        32,
+        40,
+        48
+      ],
+      "OnTime": [
+        30,
+        40,
+        20,
+        30,
+        40,
+        20
+      ],
+      "Late": [
+        60,
+        50,
+        40,
+        30,
+        20,
+        10
+      ],
+      "PhaseA": [
+        40,
+        10,
+        20,
+        60,
+        20,
+        50
+      ],
+      "PhaseB": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60
+      ],
+      "PhaseC": [
+        6,
+        22,
+        18,
+        14,
+        25,
+        34
+      ]
+    },
+    "y": {
+      "vars": [
+        "Variable1",
+        "Variable2",
+        "Variable3",
+        "Variable4",
+        "Variable5",
+        "Variable6"
+      ],
+      "smps": [
+        "Sample1",
+        "Sample2",
+        "Sample3",
+        "Sample4",
+        "Sample5",
+        "Sample6"
+      ],
+      "data": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ]
+    }
+  },
+  "config": {
+    "graphType": "Heatmap",
+    "smpLabelScaleFontFactor": 1.1,
+    "varLabelRotate": 45,
+    "varLabelScaleFontFactor": 1.7,
+    "showTransition": true,
+    "smpOverlays": [
+      "Discrete"
+    ],
+    "smpOverlayProperties": {
+      "Binary": {
+        "type": "Default",
+        "position": "left",
+        "scheme": "BlackAndWhite"
+      },
+      "Continuous": {
+        "type": "Heatmap",
+        "position": "left",
+        "spectrum": [
+          "green",
+          "white"
+        ]
+      },
+      "Discrete": {
+        "type": "Default",
+        "position": "left",
+        "thickness": 30
+      },
+      "PhaseA": {
+        "type": "Bar",
+        "position": "left",
+        "thickness": 50
+      },
+      "PhaseB": {
+        "type": "Bar",
+        "position": "left",
+        "thickness": 50
+      },
+      "PhaseC": {
+        "type": "Bar",
+        "position": "left",
+        "thickness": 50
+      },
+      "Temp": {
+        "type": "Heatmap",
+        "position": "right",
+        "spectrum": [
+          "blue",
+          "white",
+          "red"
+        ],
+        "thickness": 100
+      },
+      "Early": {
+        "type": "Line",
+        "position": "right",
+        "thickness": 50,
+        "color": "blue"
+      },
+      "OnTime": {
+        "type": "Line",
+        "position": "right",
+        "thickness": 50,
+        "color": "green"
+      },
+      "Late": {
+        "type": "Line",
+        "position": "right",
+        "thickness": 50,
+        "color": "red"
+      }
+    },
+    "varOverlays": [
+      "Drug",
+      "Site"
+    ],
+    "varOverlayProperties": {
+      "Drug": {
+        "type": "Increase",
+        "position": "top",
+        "thickness": 30
+      },
+      "Conc": {
+        "type": "Bar",
+        "position": "top",
+        "thickness": 40
+      },
+      "Male": {
+        "type": "Pie",
+        "position": "top",
+        "thickness": 50
+      },
+      "Female": {
+        "type": "Pie",
+        "position": "top",
+        "thickness": 50
+      },
+      "Site": {
+        "type": "Default",
+        "position": "top"
+      },
+      "Desc": {
+        "type": "Text",
+        "position": "bottom"
+      },
+      "Odd": {
+        "type": "BarLine",
+        "position": "bottom",
+        "thickness": 50
+      },
+      "Nice": {
+        "type": "Dotplot",
+        "position": "bottom",
+        "color": "green",
+        "thickness": 50
+      },
+      "Cold": {
+        "type": "StackedPercent",
+        "position": "bottom",
+        "color": "blue",
+        "thickness": 50
+      },
+      "Hot": {
+        "type": "StackedPercent",
+        "position": "bottom",
+        "color": "red",
+        "thickness": 50
+      },
+      "Ugly": {
+        "type": "Dotplot",
+        "position": "bottom",
+        "color": "black",
+        "thickness": 50
+      },
+      "Even": {
+        "type": "Bar",
+        "position": "bottom",
+        "thickness": 50
+      }
+    }
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        800,
+        800,
+        true
+      ]
+    ]
+  ],
+  "client": "MTU2MTQyNzMzNzIxNTo6MTo6MjQuNTo6",
+  "clientIP": {
+    "country": "United States",
+    "longitude": -74.9535,
+    "continentCode": "NA",
+    "postal": "18940",
+    "countryCode": "US",
+    "city": "Newtown",
+    "continent": "North America",
+    "latitude": 40.2647
+  }
+}

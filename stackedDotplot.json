@@ -1,0 +1,137 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas",
+  "data": {
+    "y": {
+      "vars": [
+        "Women",
+        "Men"
+      ],
+      "smps": [
+        "MIT",
+        "Stanford",
+        "Harvard",
+        "U.Penn",
+        "Princeton",
+        "Chicago",
+        "Georgetown",
+        "Tufts",
+        "Yale",
+        "Columbia",
+        "Duke",
+        "Dartmouth",
+        "NYU",
+        "Notre Dame",
+        "Cornell",
+        "Michigan",
+        "Brown",
+        "Berkeley",
+        "Emory",
+        "UCLA",
+        "SoCal"
+      ],
+      "data": [
+        [
+          94,
+          96,
+          112,
+          92,
+          90,
+          78,
+          94,
+          76,
+          79,
+          86,
+          93,
+          84,
+          67,
+          73,
+          80,
+          62,
+          72,
+          71,
+          68,
+          64,
+          72
+        ],
+        [
+          152,
+          151,
+          165,
+          141,
+          137,
+          118,
+          131,
+          112,
+          114,
+          119,
+          124,
+          114,
+          94,
+          100,
+          107,
+          84,
+          92,
+          88,
+          82,
+          78,
+          81
+        ]
+      ]
+    },
+    "z": {
+      "Connect": [
+        1,
+        1
+      ]
+    }
+  },
+  "config": {
+    "graphType": "Dotplot",
+    "dotplotType": "stacked",
+    "axisAlgorithm": "wilkinson",
+    "sortDir": "descending",
+    "connectBy": "Connect",
+    "xAxisShow": false,
+    "xAxisMinorTicks": false,
+    "xAxisTickFormat": "$%sK",
+    "xAxisTitle": "Annual Salary",
+    "xAxis2Title": "Annual Salary",
+    "smpTitle": "School",
+    "title": "Gender Earnings Disparity",
+    "showTransition": true
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        850,
+        850,
+        true
+      ]
+    ],
+    [
+      "sortSamplesByVariable",
+      [
+        "Men"
+      ],
+      {
+        "sortDir": "descending"
+      },
+      1561425918390
+    ]
+  ],
+  "client": "MTU2MTQyNTkxNzAxNTo6MTo6MjQuNTo6",
+  "clientIP": {
+    "country": "United States",
+    "longitude": -74.9535,
+    "continentCode": "NA",
+    "postal": "18940",
+    "countryCode": "US",
+    "city": "Newtown",
+    "continent": "North America",
+    "latitude": 40.2647
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas",
+  "data": {
+    "y": {
+      "vars": [
+        "Pants on Fire",
+        "False",
+        "Mostly False",
+        "Half True",
+        "Mostly True",
+        "True"
+      ],
+      "smps": [
+        "Big Fat Liar",
+        "Two-Faced",
+        "Honest Abe"
+      ],
+      "data": [
+        [
+          -35,
+          -20,
+          -5
+        ],
+        [
+          -25,
+          -20,
+          -10
+        ],
+        [
+          -15,
+          -10,
+          -10
+        ],
+        [
+          10,
+          10,
+          15
+        ],
+        [
+          10,
+          20,
+          25
+        ],
+        [
+          5,
+          20,
+          35
+        ]
+      ]
+    }
+  },
+  "config": {
+    "graphOrientation": "horizontal",
+    "graphType": "Stacked",
+    "colorScheme": "RdYlBu",
+    "legendPosition": "bottom",
+    "legendColumns": 3,
+    "title": "Diverging Stacked Graph",
+    "axisAlgorithm": "wilkinson",
+    "xAxisTickFormat": "%s%%",
+    "marginRight": 20
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        850,
+        850,
+        true
+      ]
+    ]
+  ],
+  "client": "MTU2MTQyNTM1MDMzOTo6MTo6MjQuNTo6",
+  "clientIP": {
+    "country": "United States",
+    "longitude": -74.9535,
+    "continentCode": "NA",
+    "postal": "18940",
+    "countryCode": "US",
+    "city": "Newtown",
+    "continent": "North America",
+    "latitude": 40.2647
+  }
+}

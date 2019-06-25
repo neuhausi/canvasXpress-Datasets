@@ -1,0 +1,62 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas",
+  "data": {
+    "y": {
+      "vars": [
+        "Variable1"
+      ],
+      "smps": [
+        "Sample1",
+        "Sample2",
+        "Sample3",
+        "Sample4",
+        "Sample5",
+        "Sample6",
+        "Sample7",
+        "Sample8"
+      ],
+      "data": [
+        [
+          10,
+          15,
+          20,
+          30,
+          40,
+          70,
+          80,
+          90
+        ]
+      ]
+    }
+  },
+  "config": {
+    "graphType": "Bar",
+    "barType": "lollipop",
+    "widthFactor": 0.1,
+    "showTransition": true
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        850,
+        850,
+        true
+      ]
+    ]
+  ],
+  "client": "MTU2MTQyNjA1MTkyMjo6MTo6MjQuNTo6",
+  "clientIP": {
+    "country": "United States",
+    "longitude": -74.9535,
+    "continentCode": "NA",
+    "postal": "18940",
+    "countryCode": "US",
+    "city": "Newtown",
+    "continent": "North America",
+    "latitude": 40.2647
+  }
+}

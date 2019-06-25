@@ -1,0 +1,86 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas",
+  "data": {
+    "y": {
+      "vars": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "smps": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "data": [
+        [
+          11975,
+          5871,
+          8916,
+          2868
+        ],
+        [
+          1951,
+          10048,
+          2060,
+          6171
+        ],
+        [
+          8010,
+          16145,
+          8090,
+          8045
+        ],
+        [
+          1013,
+          990,
+          940,
+          6907
+        ]
+      ]
+    }
+  },
+  "config": {
+    "graphType": "Circular",
+    "circularType": "chord",
+    "rAxisTickFormat": [
+      "%sK",
+      "val / 1000"
+    ],
+    "colors": [
+      "#000000",
+      "#FFDD89",
+      "#957244",
+      "#F26223"
+    ],
+    "showLegend": false,
+    "showTransition": true,
+    "higlightGreyOut": true
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        850,
+        850,
+        true
+      ]
+    ]
+  ],
+  "client": "MTU2MTQyNTY4Mjk5Mjo6MTo6MjQuNTo6",
+  "clientIP": {
+    "country": "United States",
+    "longitude": -74.9535,
+    "continentCode": "NA",
+    "postal": "18940",
+    "countryCode": "US",
+    "city": "Newtown",
+    "continent": "North America",
+    "latitude": 40.2647
+  }
+}

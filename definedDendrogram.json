@@ -1,0 +1,53 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas",
+  "data": {
+    "y": {
+      "smps": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "vars": [
+        "V1"
+      ],
+      "data": [
+        [
+          2,
+          10,
+          20,
+          15
+        ]
+      ]
+    }
+  },
+  "config": {
+    "graphType": "Bar",
+    "smpDendrogramNewick": "D,(A,(B,C))",
+    "showSmpDendrogram": true
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        800,
+        500,
+        true
+      ]
+    ]
+  ],
+  "client": "MTU2MTQyNzE4NjIyMTo6MTo6MjQuNTo6",
+  "clientIP": {
+    "country": "United States",
+    "longitude": -74.9535,
+    "continentCode": "NA",
+    "postal": "18940",
+    "countryCode": "US",
+    "city": "Newtown",
+    "continent": "North America",
+    "latitude": 40.2647
+  }
+}

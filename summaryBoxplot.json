@@ -1,0 +1,110 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas",
+  "data": {
+    "x": {
+      "Factor1": [
+        "Lev1",
+        "Lev2",
+        "Lev3"
+      ]
+    },
+    "y": {
+      "vars": [
+        "Variable1"
+      ],
+      "smps": [
+        "Group1",
+        "Group2",
+        "Group3"
+      ],
+      "iqr1": [
+        [
+          5,
+          25,
+          null
+        ]
+      ],
+      "iqr3": [
+        [
+          10,
+          30,
+          null
+        ]
+      ],
+      "median": [
+        [
+          8,
+          27,
+          null
+        ]
+      ],
+      "qtl1": [
+        [
+          6,
+          25,
+          null
+        ]
+      ],
+      "qtl3": [
+        [
+          10,
+          29,
+          null
+        ]
+      ],
+      "out": [
+        [
+          [
+            1
+          ],
+          [
+            4
+          ],
+          []
+        ]
+      ]
+    }
+  },
+  "config": {
+    "colorBy": "Factor1",
+    "graphOrientation": "vertical",
+    "graphType": "Boxplot",
+    "jitter": false,
+    "showBoxplotOriginalData": true,
+    "showLegend": false,
+    "subtitle": "Boxplot Graph",
+    "colors": [
+      "white",
+      "red",
+      "green"
+    ],
+    "foreground": [
+      "blue"
+    ],
+    "title": "Summary Data"
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        500,
+        500,
+        true
+      ]
+    ]
+  ],
+  "client": "MTU2MTQyNjkxMzY4MDo6MTo6MjQuNTo6",
+  "clientIP": {
+    "country": "United States",
+    "longitude": -74.9535,
+    "continentCode": "NA",
+    "postal": "18940",
+    "countryCode": "US",
+    "city": "Newtown",
+    "continent": "North America",
+    "latitude": 40.2647
+  }
+}
