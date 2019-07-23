@@ -1,5 +1,9 @@
 [
   [
+    "facetFilter",
+    "https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/facetFilter.json"
+  ],
+  [
 	"increasedDecreased",
 	"https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/summaryBar.json"
   ],
