@@ -1,0 +1,46 @@
+{
+  "version": 24.5,
+  "renderTo": "canvas",
+  "data": {
+    "nodes" : [{
+      "id" : "Id0"
+    }, {
+      "id" : "Id1"    
+    }, {
+      "id" : "Id2"    
+    }, {
+      "id" : "Id3"    
+    }],
+    "edges" : [{
+      "id1" : "Id0",
+      "id2" : "Id1"
+    }, {
+      "id1" : "Id1",
+      "id2" : "Id2"
+    }, {
+      "id1" : "Id1",
+      "id2" : "Id3"
+    }, {
+      "id1" : "Id0",
+      "id2" : "Id2"
+    }, {
+      "id1" : "Id0",
+      "id2" : "Id3"
+    }]
+  },
+  "config": {
+    "graphType": "Network"
+  },
+  "events": false,
+  "info": false,
+  "afterRender": [
+    [
+      "setDimensions",
+      [
+        850,
+        850,
+        true
+      ]
+    ]
+  ]
+}

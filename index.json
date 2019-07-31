@@ -1,4 +1,7 @@
 [
+  [ "forceDirectedLayout",
+    "https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/forceDirectedLayout.json"
+  ],
   [
     "facetFilter",
     "https://raw.githubusercontent.com/neuhausi/canvasXpress-Datasets/master/facetFilter.json"
